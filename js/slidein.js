@@ -30,4 +30,3 @@ slideinFoxkehButton.addEventListener("click", startSlideinFoxkeh);
 //Dear　ちこさん
 //おまけです。
 //アニメーションを編集したのでみてください(❛ᴗ❛人)✧
-//https://github.com/HarukaSato/lecture04
