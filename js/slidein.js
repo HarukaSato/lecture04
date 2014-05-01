@@ -1,5 +1,5 @@
 var endSlideinFoxkeh = function(){
-//slideinFoxkehの最後のパーツ。functionで動作をするという指示。
+//slideinFoxkehの最後のパーツ。functionで{}内の動作をするという指示。
 	var foxkeh = document.querySelector("#slidein-foxkeh img");
 //foxkehという名前で"#slidein-foxkeh img"がくるように指定している。
 	foxkeh.setAttribute("class", "");
@@ -8,7 +8,7 @@ var endSlideinFoxkeh = function(){
 };
 
 var startSlideinFoxkeh = function(){
-//slideinFoxkehの最初のパーツ。functionで動作をするという指示。
+//slideinFoxkehの最初のパーツ。functionで{}内の動作をするという指示。
 	var foxkeh = document.querySelector("#slidein-foxkeh img");
 //foxkehという名前で"#slidein-foxkeh img"がくるように指定している。
 	foxkeh.setAttribute("class", "slidein");
@@ -26,3 +26,8 @@ slideinFoxkehButton.addEventListener("click", startSlideinFoxkeh);
 //「addEventListener」でイベントターゲットにイベントリスナーを１つ登録。
 //つまり"click"というイベントのリスナーをstartSlideinFoxkehと登録するという構文。
 //startSlideinFoxkehの動作にうつるという指定を意味している。
+
+//Dear　ちこさん
+//おまけです。
+//アニメーションを編集したのでみてください(❛ᴗ❛人)✧
+//https://github.com/HarukaSato/lecture04
